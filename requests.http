@@ -9,7 +9,7 @@ Content-Type: application/json
 ###
 
 # создание датчика
-POST {{baseUrl}}/sensor/
+POST {{baseUrl}}/sensors/
 Content-Type: application/json
 
 {
@@ -52,5 +52,5 @@ Content-Type: application/json
 ###
 
 # получение информации по датчику
-GET {{baseUrl}}/sensor/info/1/
+GET {{baseUrl}}/sensors/2/
 Content-Type: application/json
